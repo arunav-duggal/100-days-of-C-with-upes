@@ -27,5 +27,13 @@ int main()
     printf("the sum is %d\n", a+b);
     printf("the difference is %d\n", a-b);
     printf("the product is %d\n", a*b);
-    printf("the quotient is %d\n", a/b);
+
+    if (b==0)
+    {
+        printf("cannot divide by 0\n");
+    }
+    else
+    {
+        printf("the quotient is %d\n", a/b);
+    }  
 }
