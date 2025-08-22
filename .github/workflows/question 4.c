@@ -22,8 +22,8 @@ int main()
     printf("enter the radius: ");
     scanf("%f",&r);
 
-    printf("the area is %.2f\n", 3.14*r*r);
-    printf("the cricumference is %.2f", 2*3.14*r);
+    printf("the area is %.2f\n", 3.14159265359*r*r);
+    printf("the cricumference is %.2f", 2*3.14159265359*r);
 
     return 0;
 }
