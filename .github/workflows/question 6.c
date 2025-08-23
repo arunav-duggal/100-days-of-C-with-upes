@@ -15,7 +15,7 @@ After swap: 1 -1
 */
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
     int a,b,c;
 
